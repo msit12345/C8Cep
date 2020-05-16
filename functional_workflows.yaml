@@ -1,0 +1,12 @@
+federation: 
+  url: qa3.eng3.macrometa.io
+port: 443
+protocol: https
+functional:
+  enable: true
+  # available markers
+  # db, stream, spot, pipeline, rice, addregion
+  # see pytest.ini file
+  test-suite: 
+diagnostics:
+  enable: false
